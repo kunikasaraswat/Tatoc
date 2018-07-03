@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testClasses.TatocBasic">
+        <methods>
+          <include name="initVars"/>
+          <include name="Step04_Launch_DragAround"/>
+          <include name="Step01_Launch_HomePage"/>
+          <include name="Step06_Launch_CookieHandling"/>
+          <include name="Step03_Launch_FrameDungeonPage"/>
+          <include name="Step02_Launch_GridGatePage"/>
+          <include name="Step05_Launch_PopupWindows"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- testClasses.TatocBasic -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
